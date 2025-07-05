@@ -2,7 +2,7 @@
 import logging
 from pyrogram import Client, filters
 from config import API_ID, API_HASH, BOT_TOKEN
-from handlers import (
+from .handlers import (
     start, merge, trim, compress, rename, screenshot,
     watermark, encode, subtitle, audio, archive,
     extract_archive, download_link, url_uploader, metadata
